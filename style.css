@@ -1,0 +1,55 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(71, 160, 238);
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-around; /* Space between left (logo) and right (links) */
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+}
+
+/* Logo (Left Side) */
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+/* Navigation Links (Right Side) */
+.nav-right {
+    display: flex;
+    gap: 20px; /* Adds spacing between links */
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+/*active html */
+.nav-item.active {
+    font-weight: bold; /* Makes the active link stand out */
+    border-bottom: 2px solid white; /* Adds an underline */
+}
+

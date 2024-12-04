@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 27px;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 60px;
+}
+p,h1,h2,h3,h4,h5,h6{
+    color: white;
+}
+img{
+    border-radius: 20px;
+}
+
+p{
+    width: 1300px;
+    font-size: 23px;
+}
+
+.pictures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 27px;
+    flex-direction: row;
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.mission{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.missions{
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,29 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 27px;
+    flex-direction: column;
+    gap: 25px;
+}
+p,h1,h2,h3,h4,h5,h6{
+    color: white;
+}
+
+p{
+    font-size: 24px;
+    width: 1600px;
+}
+
+.history{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    font-size: 27px;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 30px;
+}
